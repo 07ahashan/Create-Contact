@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CreateContact</string>
+    <string name="createcontact">CreateContact</string>
+    <string name="create_new_contact">Create New Contact</string>
+    <string name="yourcontact">YourContact</string>
+    <string name="enter_conatct_name">Enter Conatct Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="enter_webpage">Enter WebPage</string>
+    <string name="happy">happy</string>
+    <string name="ok">ok</string>
+    <string name="sad">sad</string>
+    <string name="name">name</string>
+    <string name="enter_Location">Enter Location</string>
+</resources>

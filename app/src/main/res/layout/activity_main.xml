@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightprimarycolor"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="@string/yourcontact"
+        android:textAlignment="center"
+        android:textColor="@color/primarydarkcolor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/ivHappy"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/happy"
+        android:focusable="true"
+        app:tint="@color/primarydarkcolor" />
+
+    <ImageView
+        android:id="@+id/ivPhone"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/phone"
+        android:focusable="true"
+        app:tint="@color/primarycolor" />
+
+    <ImageView
+        android:id="@+id/ivWeb"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/webpage"
+        android:focusable="true"
+        app:tint="@color/accentcolor" />
+
+    <ImageView
+        android:id="@+id/ivLocation"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/location"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/primarydarkcolor"
+        android:text="@string/create_new_contact"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+</LinearLayout>
